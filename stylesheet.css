@@ -1,0 +1,177 @@
+/***********************/
+/*        Body         */
+/***********************/
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+li{
+    list-style-type: none;
+}
+a:link{
+    text-decoration: none;
+}
+.logo img{
+    width: 525px;
+    margin-bottom: -50px;
+    padding-top: 80px;
+}
+
+
+/***********************/
+/*        NavBar       */
+/***********************/
+
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 30px;
+    font-size: 14px;
+}
+.nav_item{
+    margin-left: 10px;
+}
+.navbar a{
+    color: black;
+}
+.navbar a:hover{
+    color: rgb(109, 108, 108);
+    text-decoration: underline;
+}
+#grid{
+    width: 25px;
+    margin-top: 5;
+}
+.button_connection{
+    background-color: rgb(6, 182, 226);
+    width: 100px;
+    line-height: 25px;
+    text-align: center;
+    margin: 10px;
+    border-radius: 3px;
+}
+.button_connection a{
+    color: white;
+    font-weight: bold;
+}
+
+
+
+/***********************/
+/*        Search       */
+/***********************/
+
+.logo, .search, .button_search, .stop, .logo_stop, p{
+    text-align: center;
+    padding: 5px;
+}
+.logo_stop{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo_stop a, p{
+    font-size: 13px;
+}
+.logo_stop img{
+    width: 45px;
+    height: 45px;
+    padding-right: 10px;
+}
+.search{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    width: 650px;
+    height: 47px;
+    border-radius: 40px;
+    border: 1px solid rgba(206, 197, 197, 0.527);
+    transform: translate(-50%, -50%);
+    outline: none;
+}
+button{
+    background-color: rgba(206, 197, 197, 0.267);
+    color: rgb(148, 138, 138);
+    border-radius: 5px;
+    box-shadow:none;
+    border:0 none;
+    outline:none;
+    padding: 5px 10px;
+    margin-right: 7px;
+}
+.button_search{
+    margin: 0 0 20px 0;
+}
+.button_search a{
+    padding: 11px 4px;
+    line-height: 28px;
+    font-size: 15px;
+    color: rgb(109, 108, 108);
+}
+.logo_stop a:hover{
+    text-decoration: underline;
+}
+p a:hover{
+    text-decoration: underline;
+}
+
+
+/***********************/
+/*        Footer       */
+/***********************/
+
+
+footer{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    padding: 20px;
+    background-color: rgba(206, 197, 197, 0.267);
+    margin: 0 0 0 -20px;
+    font-size: 15px;
+}
+footer, span{
+    padding: 10px;
+    color: rgb(109, 108, 108);
+}
+footer a{
+    color: rgb(109, 108, 108);
+}
+footer a:hover{
+    text-decoration: underline;
+}
+footer a:active{
+    color: rgb(189, 41, 41);
+}
+.footer_flex{
+    display: flex;
+    justify-content: space-between;
+}
+.fleft{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: auto;
+    color: rgb(109, 108, 108);
+}
+.fleft span{
+    padding: 10px;
+}
+.fright{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: auto;
+    text-align: center;
+    color: rgb(109, 108, 108);
+}
+.fright span{
+    padding: 10px;
+}
+.france{
+    display: flex;
+    justify-content: flex-start;
+    font-size: 17px;
+}
+
